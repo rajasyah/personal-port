@@ -6,4 +6,8 @@
   .container-page {
     @apply flex justify-center items-center h-full bg-gray-900;
   }
+
+  .box-skills {
+    @apply flex flex-col justify-center items-center font-body text-white hover:bg-gradient-to-r from-red-800 to-purple-900 hover:rounded-md hover:transition-all duration-300;
+  }
 }

@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 
 const Header = () => {
-  const [open, setOpen] = useState(false);
   const nav = [
     {
       name: "Home",

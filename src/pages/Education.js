@@ -3,7 +3,12 @@ import React from "react";
 const Education = () => {
   return (
     <div className="container-page">
-      <h1 className="text-3xl text-white">Education</h1>
+      <div>
+        <h1 className="text-3xl text-white">Education</h1>
+      </div>
+      <div>
+        <div></div>
+      </div>
     </div>
   );
 };
