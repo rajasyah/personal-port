@@ -40,22 +40,22 @@ const Home = () => {
         </Link>
         <div className="flex gap-3 mt-5">
           <Link
-            to=""
+            to="test"
             target="_blank"
             className="font-bold border-blue-700 border-2 p-1 rounded-sm hover:bg-blue-800"
           >
             <ImFacebook className="inline text-xl text-blue-500 hover:text-white" />
           </Link>
           <Link
-            to=""
+            to={{ pathname: "https://instagram.com" }}
             target="_blank"
             className="font-bold border-pink-700 border-2 p-1 rounded-sm hover:bg-pink-800"
           >
             <ImInstagram className="inline text-lg text-pink-500 hover:text-white" />
           </Link>
           <Link
-            to=""
             target="_blank"
+            to={{ pathname: "https://github.com/rajasyah" }}
             className="font-bold border-gray-500 border-2 p-1 rounded-sm hover:bg-black"
           >
             <ImGithub className="inline text-lg text-gray-300 hover:text-white" />

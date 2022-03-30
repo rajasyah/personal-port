@@ -40,7 +40,7 @@ const Header = () => {
       <div className="right pr-28">
         <ul className="flex font-body text-white text-lg font-semibold gap-10">
           {nav.map((item) => (
-            <li key={item.name}>
+            <li className="hover:text-red-500" key={item.name}>
               <Link to={item.to}>{item.name}</Link>
             </li>
           ))}

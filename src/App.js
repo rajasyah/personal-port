@@ -1,4 +1,5 @@
-import { Route, Routes } from "react-router-dom";
+import React, { useEffect } from "react";
+import { Route, Routes, useLocation } from "react-router-dom";
 import Header from "./components/Header";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
@@ -8,10 +9,12 @@ import Home from "./pages/Home";
 import Work from "./pages/Work";
 
 function App() {
+  const location = useLocation();
+
   return (
     <div className="h-screen w-screen flex flex-col">
       <Header />
-      <Routes>
+      <Routes location={location} key={location.pathname}>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="education" element={<Education />} />
