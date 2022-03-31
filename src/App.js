@@ -21,9 +21,9 @@ function App() {
         <Route path="about" element={<About />}>
           <Route index element={<AboutHome />} />
           <Route path="skills" element={<Skills />} />
+          <Route path="education" element={<Education />} />
+          <Route path="experience" element={<Experience />} />
         </Route>
-        <Route path="education" element={<Education />} />
-        <Route path="experience" element={<Experience />} />
         <Route path="work" element={<Work />} />
         <Route path="contact" element={<Contact />} />
       </Routes>

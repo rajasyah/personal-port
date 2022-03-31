@@ -11,14 +11,7 @@ const Header = () => {
       name: "About",
       to: "/about",
     },
-    {
-      name: "Education",
-      to: "/education",
-    },
-    {
-      name: "Experience",
-      to: "/experience",
-    },
+
     {
       name: "Work",
       to: "/work",

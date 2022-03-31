@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutHome = () => {
   return (
-    <div className="w-2/4 text-gray-300 leading-7 mt-10 text-center">
+    <div className="w-2/4 h-2/6 text-gray-300 leading-7 mt-10 text-center">
       <p>
         I'm a Web Developer, I make and Develop application using web technology
         like MongoDb, Express, ReactJs, Node Js, and other. The work ethic, and
