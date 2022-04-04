@@ -40,7 +40,7 @@ const Contact = () => {
       <form
         ref={form}
         onSubmit={sendEmail}
-        className="flex flex-col gap-5 w-2/6 h-5/6 p-10 bg-red-700 text-white font-body rounded-lg shadow-black shadow-lg"
+        className="flex flex-col gap-5 w-2/6 h-5/6 p-10 bg-red-900 text-white font-body rounded-lg shadow-black shadow-lg"
       >
         <h1 className="text-xl text-center font-bold">Contact us</h1>
         <label>Name</label>
